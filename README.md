@@ -26,3 +26,21 @@
     f) Head:
 
         ● git checkout "HEAD"
+        ● git checkout "branchname"^
+        ● git checkout "HEAD" ~ <num>
+        --> Head and branch 
+
+            ● git branch -f main "HEAD" ~ <num>
+            ● git branch -f main C0
+        
+    g) Git Reset:
+
+        ● git reset "HEAD"
+    
+    h) Revert: 
+        ● git Revert "HEAD"
+
+    I) GIT Cherry-pick
+
+        ● git cherry-pick c1 c4
+    
